@@ -22,7 +22,7 @@ public class RegistrationServices {
 
 	private static final int ITERATIONS = 65536;
 	private static final int KEY_LENGTH = 512;
-	private static final String ALGORITHM = "MKERPWithHmacSHA512";
+	private static final String ALGORITHM = "PBKDF2WithHmacSHA512";
 	private static final SecureRandom RAND = new SecureRandom();
 
 	private UserInfoRepository userInfoRepository;
