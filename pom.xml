@@ -21,8 +21,8 @@
 
 	<modules>
 		<module>registration</module>
-		<module>roles_management</module>
-		<module>access_management</module>
+		<!--module>roles_management</module>
+		<module>access_management</module-->
     </modules>
 
 </project>
